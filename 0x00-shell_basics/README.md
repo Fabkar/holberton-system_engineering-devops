@@ -1,0 +1,1 @@
+Document about different scripts form shell
