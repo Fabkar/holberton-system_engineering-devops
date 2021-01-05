@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Run Nginx as Nginx and update port 80 to 8080 change permission
+pkill apche2 
+pkill nginx
+sudo chown nginx:nginx /etc/nginx/nginx.config
+sudo chmod 600 /etc/nginx/nginx.config
+sed -i 's/80/8080/' /etc/nginx/sites-available/default
+sudo service nginx restart
