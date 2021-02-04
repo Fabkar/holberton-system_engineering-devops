@@ -10,7 +10,7 @@ def top_ten(subreddit):
     listed for a given subreddit."""
     header = {"User-agent": "darth"}
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    response = requests.get(url, headers=header)
+    response = requests.get(url, headers=header, allow_redirects=False)
     try:
         data = response.json().get('data').get('children')
         for i in data[:10]:
