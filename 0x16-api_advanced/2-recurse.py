@@ -24,8 +24,3 @@ def recurse(subreddit, hot_list=[], count=0, after=None):
                        url_req_rec.get("data").get("count"),
                        url_req_rec.get("data").get("after"))
     return (hot_list)
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
