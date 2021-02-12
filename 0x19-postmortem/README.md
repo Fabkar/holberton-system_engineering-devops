@@ -15,9 +15,9 @@ An invalid configuration or human mistake changes the launch hour one day before
 00:35 AM - the virtual platform receives a request for a purchase.
 
 00:48 AM - The system report the first call to costumer services.
-  .
-  .	 - The virtual platform continue receives more complaints.
-  .
+
+03:00 AM - The virtual platform continue receives more complaints.
+
 08:00 AM - There were about 265 complaints from people who could make a claim for the page.
 
 08:03 AM - The marketing team sends authorization for the platform to be enabled as soon as possible.
